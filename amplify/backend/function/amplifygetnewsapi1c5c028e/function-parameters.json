@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "function": {
+      "amplifygetnewsapi05e3c7fe": [
+        "read"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}

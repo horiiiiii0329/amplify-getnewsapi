@@ -1,1 +1,23 @@
-{}
+{
+  "function": {
+    "amplifygetnewsapi05e3c7fe": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "amplifygetnewsapi1c5c028e": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda",
+      "dependsOn": [
+        {
+          "category": "function",
+          "resourceName": "amplifygetnewsapi05e3c7fe",
+          "attributes": [
+            "Name"
+          ]
+        }
+      ]
+    }
+  }
+}
